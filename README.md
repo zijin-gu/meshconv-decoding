@@ -5,6 +5,20 @@ Code for paper [Decoding natural image stimuli from fMRI data with a surface-bas
 ![](/model.png)
 
 ## Requirements
+1. Clone the IC-GAN repo: https://github.com/facebookresearch/ic_gan.git
+2. Other packages required:
+
+ `argparse`
+`numpy`
+`os` 
+`torch`
+`torchvision`
+`h5py`
+`math`
+`pickle`
+`scipy`
+`sys`
+`collections`
 
 ## Insrtuctions
 1. install required packages.
