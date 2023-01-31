@@ -22,6 +22,10 @@ Code for paper [Decoding natural image stimuli from fMRI data with a surface-bas
 
 ## Insrtuctions
 1. install required packages.
-2. (optional) if the data is not in fs_LR_32K surface, run `map_fsaverage_to_hcp.sh`
+2. (optional) if the data is not in fs_LR_32K surface, run `map_fsaverage_to_hcp.sh`.
 2. run `python train_feature_decoding.py` to train the `Cortex2Semantic` model.
 3. run `python train_combined_decoding.py` to train the `Cortex2Detail` model.
+4. run `python test.py` to generate the decoded images.
+
+Note that the file paths and the hyparameters may need to be changed according to your own settings.
+
