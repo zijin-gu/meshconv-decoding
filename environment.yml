@@ -1,0 +1,18 @@
+name: meshconvdec
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - argparse 
+  - numpy 
+  - os
+  - torch 
+  - torchvision 
+  - h5py 
+  - math 
+  - pickle 
+  - scipy 
+  - sys 
+  - collections
