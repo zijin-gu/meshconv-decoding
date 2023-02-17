@@ -12,7 +12,7 @@ conda env create -f environment.yml
 conda activate meshconvdec
 ```
 
-## Insrtuctions
+## Instructions
 1. install required packages.
 2. (optional) if the data is not in fs_LR_32K surface, run `map_fsaverage_to_hcp.sh`.
 2. run `python train_feature_decoding.py` to train the `Cortex2Semantic` model.
