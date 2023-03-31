@@ -14,7 +14,7 @@ conda activate meshconvdec
 
 ## Instructions
 1. install required packages.
-2. (optional) if the data is in fsaverage space instead of fs_LR_32K surface, run `map_fsaverage_to_hcp.sh`.
+2. (optional) if the data is in fsaverage space instead of fs_LR_32K surface, run `loop4all.sh` which will run`map_fsaverage_to_hcp.sh` for every session and every subject in NSD.
 2. run `python train_feature_decoding.py` to train the `Cortex2Semantic` model.
 3. run `python train_combined_decoding.py` to train the `Cortex2Detail` model.
 4. run `python test.py` to generate the decoded images. Pretrained models can be downloaded [here](https://cornell.box.com/s/dpzt57eeg3424wd2b330dmttg86x7ffm)
