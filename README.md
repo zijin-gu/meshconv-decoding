@@ -1,6 +1,6 @@
 # Decoding natural image stimuli from fMRI data with a surface-based convolutional network
 
-Code for paper [Decoding natural image stimuli from fMRI data with a surface-based convolutional network](https://arxiv.org/abs/2212.02409).
+Code for MIDL 2023 paper [Decoding natural image stimuli from fMRI data with a surface-based convolutional network](https://arxiv.org/abs/2212.02409) (oral).
 
 ![](/model.png)
 
