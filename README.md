@@ -21,7 +21,7 @@ conda activate meshconvdec
 
 Please note that the file paths and the hyparameters may need to be changed according to your own settings.
 
-## Aviliability
+## Availability
 We welcome researchers to use our models and to compare their new approaches with ours.
 Pretrained models and reconstructed images for 1000 shared images in NSD can be downloaded [here](https://cornell.box.com/s/epev6y4y6foqjey4pxtg4txsyfmcvwmj).
 
