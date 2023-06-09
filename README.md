@@ -11,6 +11,7 @@ Code for MIDL 2023 paper [Decoding natural image stimuli from fMRI data with a s
 conda env create -f environment.yml 
 conda activate meshconvdec
 ```
+3. If you use NSD, it is publicly available at https://naturalscenesdataset.org/. Follow the 2nd step in the Instructions to prepare the data.
 
 ## Instructions
 1. install required packages.
