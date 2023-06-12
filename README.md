@@ -14,11 +14,11 @@ conda activate meshconvdec
 3. If you use NSD, it is publicly available at https://naturalscenesdataset.org/. Follow the 2nd step in the Instructions to prepare the data.
 
 ## Instructions
-1. install required packages.
-2. (optional) if the data is in fsaverage space instead of fs_LR_32K surface, run `loop4all.sh` which will run`map_fsaverage_to_hcp.sh` for every session and every subject in NSD.
-2. run `python train_feature_decoding.py` to train the `Cortex2Semantic` model.
-3. run `python train_combined_decoding.py` to train the `Cortex2Detail` model.
-4. run `python test.py` to generate the decoded images. 
+1. Install required packages.
+2. (optional) If the data is in fsaverage space instead of fs_LR_32K surface, e.g., the data in NSD repo here https://natural-scenes-dataset.s3.amazonaws.com/index.html#nsddata_betas/ppdata/subj01/fsaverage/betas_fithrf_GLMdenoise_RR/. Run `loop4all.sh` which will run`map_fsaverage_to_hcp.sh` for every session and every subject in NSD.
+2. Run `python train_feature_decoding.py` to train the `Cortex2Semantic` model.
+3. Run `python train_combined_decoding.py` to train the `Cortex2Detail` model.
+4. Run `python test.py` to generate the decoded images. 
 
 Please note that the file paths and the hyparameters may need to be changed according to your own settings.
 
