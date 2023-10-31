@@ -4,6 +4,9 @@ Code for MIDL 2023 paper [Decoding natural image stimuli from fMRI data with a s
 
 ![](/model.png)
 
+## !Update!
+Preprocessed brain data on surface can be found [here](https://cornell.box.com/s/7fjry2vhy11mpl908b6rrmpmbxmbhpdp). 
+
 ## Requirements
 1. Clone the IC-GAN repo: `git clone https://github.com/facebookresearch/ic_gan.git`
 2. Install required packages: 
